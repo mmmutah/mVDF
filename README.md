@@ -17,8 +17,12 @@ For this code to work, you will need the following:
 * Matplotlib
 
 
-# Running
+# Running example pore file
 To run the example pore file:
 * Import pore file:   pores = import_pores('example.csv')
 * Calculate the vdf:  vdf_function(0.342,1.0,0.1,0.1,pores)
 
+
+# Running your own pore file
+To run your own pore file:
+* 
