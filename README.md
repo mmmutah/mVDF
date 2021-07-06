@@ -9,3 +9,16 @@ If you use this tool or its key elements in your publication, we kindly ask you 
 D.S. Watring, J.T. Benzing, O.L. Kafka, L.A. Liew, N.H. Moser, J. Erickson, N. Hrabe, & A.D. Spear. "Evaluation of a modified void descriptor function to uniquely characterize pore networks and predict fracture-related properties in additively manufactured metals" _Submitted Acta Materialia_
 ```
 
+# Prerequisites
+For this code to work, you will need the following:
+* Python
+* Numpy
+* Scikit-Learn
+* Matplotlib
+
+
+# Running
+To run the example pore file:
+* Import pore file:   pores = import_pores('example.csv')
+* Calculate the vdf:  vdf_function(0.342,1.0,0.1,0.1,pores)
+
