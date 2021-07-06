@@ -1,9 +1,9 @@
 #----------------------------------------------------------------------
 # Software License Agreement (BSD License)
 #
-# Copyright 2018-2021  Brian R. Phung. All rights reserved.
-# Copyright 2018-2021  Junyan He. All rights reserved.
-# Copyright 2018-2021  Ashley Spear (ashley.spear@utah.edu). 
+# Copyright 2018-2021 . All rights reserved.
+# Copyright 2018-2021 . All rights reserved.
+# Copyright 2018-2021   (). 
 #   All rights reserved.
 # 
 # THE BSD LICENSE
