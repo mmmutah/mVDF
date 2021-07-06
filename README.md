@@ -25,4 +25,6 @@ To run the example pore file:
 
 # Running your own pore file
 To run your own pore file:
-* 
+* Ensure you pore file aligns with example pore file (see PoreFileReadMe)
+* Z axis must be the axis aligned with gauge length
+* Ensure consistant units (e.g., X, Y, Z, Volume, etc.)
