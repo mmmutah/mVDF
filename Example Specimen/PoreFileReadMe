@@ -1,0 +1,18 @@
+The code to calculate the modified void descriptor function (mVDF) given an example pore file and the optimal fitting parameters (α, ρ, γ, ζ). 
+
+For the example pore file, the optimal fitting parameters are 0.342, 1.0, 0.1, and 0.1. 
+
+The example pore file consists of the following:
+%Resolution (in um/pixel)     %Number of stacks in CT data/length of CT volume (um)     %C from the VDF formulation (um)     %Total volume of specimen (um^3)
+
+% X (pixels)   % Y (pixels)   % Z (pixels)   % Volume of pore (um^3)   % Surface area of pore (um^2)   % r_a semi-major axis (um)   % r_b (um)   % r_c (um)   % θxy (deg)   % φx (degrees)   % φy (degrees)
+
+
+To run the example pore file:
+1. Import pore file: pores = import_pores(filename)
+2. Calculate vdf: vdf_function(0.342,1.0,0.1,0.1,pores)
+
+
+This will return the mVDF value as an array and the plot of the non-normalized VDF for this specific specimen.
+
+
