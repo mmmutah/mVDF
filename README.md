@@ -1,6 +1,4 @@
-# mVDF
-Modified Void Descriptor Function 
-**** WILL BE FINISHED ONCE MANUSCRIPT IS AVAILABLE *****
+# Modified Void Descriptor Function (mVDF)
 
 The modified void descriptor function (VDF) that improves upon pore-related metrics commonly reported in the literature by simultaneously accounting for pore sizes, pore shapes, pore clustering, pore-pore interaction, and pore locations relative to free surfaces of the specimen.
 
