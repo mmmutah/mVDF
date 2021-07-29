@@ -4,7 +4,7 @@
 
 """
 Title: Modified Void Descriptor Function
-Authors: D.S. Watring, J. Erickson, A.D. Spear
+Authors: Dillon S. Watring, John Erickson, Ashley D. Spear
 License: 
   Software License Agreement (BSD License)
 
