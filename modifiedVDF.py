@@ -61,10 +61,10 @@ def vdf_function(ahat,bhat,rho,gamma,pores):
     c = pores[0,2]       #C value from VDF formulation (um)
     V = pores[0,3]       #Total volume of specimen from CT data (um^3)
     
-    z_ref = array(range(n+1)) #Z reference array
     # Deletes the above parameters and empyt row of pores file
     pores = np.delete(np.delete(pores, 1, 0),0,0)
     n = len(pores[:,0])  #Number of pores
+    z_ref = array(range(n+1)) #Z reference array
 #----------------------------------------------------------------------
     #Calling parameters
     spher = np.zeros(n)     #Sphericity
