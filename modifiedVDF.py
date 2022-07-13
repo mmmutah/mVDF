@@ -64,7 +64,7 @@ def vdf_function(ahat,bhat,rho,gamma,pores):
     # Deletes the above parameters and empyt row of pores file
     pores = np.delete(np.delete(pores, 1, 0),0,0)
     n = len(pores[:,0])  #Number of pores
-    z_ref = array(range(n+1)) #Z reference array
+    z_ref = array(range(L+1)) #Z reference array
 #----------------------------------------------------------------------
     #Calling parameters
     spher = np.zeros(n)     #Sphericity
