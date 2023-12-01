@@ -19,8 +19,7 @@ For this code to work, you will need the following:
 
 # Running example pore file
 To run the example pore file:
-* Import pore file:   pores = import_pores('example.csv')
-* Calculate the vdf:  vdf_function(0.342,1.0,0.1,0.1,pores)
+* Import pore file and calculate the vdf: network_VDF = VDF(network_path, alpha, rho, gamma, zeta)
 
 
 # Running your own pore file
